@@ -34,6 +34,7 @@ export class InicioComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    window.scroll(0,0)
     if(environment.token == ""){
       console.log(this.router)
       console.log
